@@ -20,6 +20,13 @@ optional arguments:
                          Custom password for the web interface (12 chars min. & must include lowercase, uppercase, digit, and special characters)
 ```
 
+### Example
+
+```
+python3 bloodhound-automation.py -z ~/Documents/20230907105804_BloodHound.zip -P Thisisverysecure-1 -np 7687
+```
+
+## Customization options
 
 You can customize the Docker file located in the templates folder for further modifications.
 
@@ -30,4 +37,6 @@ By default, the script initializes three containers. Once the execution complete
 - Docker-compose
 
 Make sure you have both Docker and Docker-compose installed on your system for the script to work effectively.
+
+
 
